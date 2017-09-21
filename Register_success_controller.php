@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Register_success extends CI_Controller {
+class Register_success_controller extends CI_Controller {
 
 	function __construct() {
 		parent::__construct();
