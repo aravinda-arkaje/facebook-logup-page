@@ -16,7 +16,7 @@
 				</a>
 			</div>
 			<div class="login-form col-lg-4 col-md-4 col-sm-4 col-xs-12">
-				<form method="post" action="register_success/successfull">
+				<form method="post" action="register_success_controler/successfull">
 					<table class="form-content"> 
 						<tr>
 							<td class="padding-up padding-back">Email or Phone</td>
@@ -67,7 +67,7 @@
 				<div>
 					<div class="register-form">
 						<div class="reight-content-two">
-							<form method="post" action="register/storedetails">
+							<form method="post" action="register_controller/storedetails">
 								<div class="full-name form-inline">
 									<div class="form-group">
 									    <input type="text" class="form-control input-content" id="firstname" name="firstname" placeholder="First name" title="Pleace fill your firstname" pattern="[A-Za-z]{3,20}" required>
