@@ -10,17 +10,15 @@ class Register_success extends CI_Controller {
 
 	public function index()
 	{	
-			$mail = $this->session->userdata('email');
+		    $mail = $this->session->userdata('email');
 
 		    $this->load->library('email');  
 		    $user_name = "tsets";
 		    $user_email = $mail;
 		    $subject = 'registration success';
 		    $body = 'hello , this is just a project checking conformation mail , dont worry ';
-		    $outlook_account_username = 'aravindaarkajebhat@outlook.com'; 
-		    // $outlook_account_username = 'aravindaarkaje@gmail.com';            
-		    $outlook_account_password = 'Arkaje@123';      
-		    // $outlook_account_password = 'Arkaje123';            
+		    $outlook_account_username = 'example@outlook.com';            
+		    $outlook_account_password = '*******';                  
 		    $subject                  = 'User Login Verification:';                      
 		    $config['smtp_crypto']    = 'tls';            
 		    $config['protocol']       = 'smtp';            
