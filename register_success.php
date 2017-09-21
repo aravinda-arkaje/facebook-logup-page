@@ -28,7 +28,7 @@
 					<img width="17%"  style="margin-top: 25px;" src="<?php echo base_url(); ?>images/facebook-white.png">
 				</a>
 			<div class="login-form">
-				<form method="post" action="register_success/successfull">
+				<form method="post" action="register_success_controller/successfull">
 					<table class="form-content"> 
 						<tr>
 							<td class="padding-up padding-back">Email or Phone</td>
@@ -70,7 +70,7 @@
 				</div>
 			</div>
 			<div class="contents" ng-model="register">
-				<form class="form-horizontal" method="post" action="register_success/moredetails">
+				<form class="form-horizontal" method="post" action="register_success_controller/moredetails">
 
 					<?php
 						$firstname = $this->session->userdata('firstname');
